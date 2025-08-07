@@ -1,0 +1,5 @@
+[
+    { "id": 1, "name": "Electronics", "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400" },
+    { "id": 2, "name": "Books", "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400" },
+    { "id": 3, "name": "Clothing", "imageUrl": "https://images.unsplash.com/photo-1521334884684-d80222895322?w=400" }
+]
