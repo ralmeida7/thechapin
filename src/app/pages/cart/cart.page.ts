@@ -57,8 +57,12 @@ import { CartService } from '../../services/cart.service';
   </div>
   `,
   styles: [`
-  .full { width: 100%; background: var(--mat-sys-surface-container); border-radius: 12px; overflow: hidden; }
-  .summary { display: flex; align-items: center; gap: 12px; margin-top: 16px; padding: 12px; background: var(--mat-sys-surface-container-low); border-radius: 12px; }
+  .full { width: 100%; background: var(--brand-surface); border-radius: var(--brand-radius); overflow: hidden; box-shadow: var(--brand-shadow-sm); }
+  table { border-collapse: collapse; }
+  th { background: #f0f5f1; font-weight: 600; color: #1e362b; }
+  td, th { padding: 12px 16px; color: #1e362b; }
+  tr + tr td { border-top: 1px solid #e2e8e4; }
+  .summary { display: flex; align-items: center; gap: 12px; margin-top: 24px; padding: 16px 20px; background: var(--brand-surface-alt); border-radius: var(--brand-radius); box-shadow: var(--brand-shadow-sm); }
     .spacer { flex: 1; }
   `]
 })

@@ -7,7 +7,7 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <mat-toolbar color="primary" class="topbar">
-  <button mat-button routerLink="/products" aria-label="Go to products" class="brand">SuperStore</button>
+  <button mat-button routerLink="/products" aria-label="Go to products" class="brand">The Chapin Shop</button>
   <div class="search">
     <mat-icon>search</mat-icon>
     <input #q placeholder="Buscar producto" (keyup.enter)="goSearch(q.value)" />
@@ -52,11 +52,20 @@
   .categories-bar { position: sticky; top: 64px; z-index: 90; background: linear-gradient(90deg, var(--mat-sys-surface), transparent 98%); }
   .cat-scroll-wrapper { position: relative; width: 100%; }
   .cat-scroll { display: flex; gap: 12px; overflow-x: auto; padding: 8px 36px; scrollbar-width: thin; scroll-snap-type: x mandatory; scroll-behavior: smooth; }
-  .cat-chip { display: inline-flex; width: 600px; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px; text-decoration: none; background: var(--mat-sys-secondary-container); color: var(--mat-sys-on-secondary-container); transition: transform .15s ease, background .2s ease, box-shadow .2s ease; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+  .cat-chip { display: inline-flex; align-items: center; gap: 8px; padding: 6px 18px 6px 10px; border-radius: 32px; text-decoration: none; background: #fff; color: #1e362b; transition: transform .15s ease, background .2s ease, box-shadow .2s ease; box-shadow: 0 2px 4px rgba(0,0,0,.06); border: 1px solid #e2e8e4; }
   .cat-chip { scroll-snap-align: start; white-space: nowrap; }
   .cat-chip:hover { transform: translateY(-1px); background: color-mix(in srgb, var(--mat-sys-secondary-container) 80%, var(--mat-sys-primary) 20%); box-shadow: 0 6px 16px rgba(0,0,0,.12); }
   .cat-chip img { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; box-shadow: 0 1px 2px rgba(0,0,0,.2); }
   .cat-chip span { font-weight: 600; letter-spacing: .2px; }
+  /* Force readable category chip text on light background */
+  .cat-chip, .cat-chip span { color: #1e362b !important; }
+  .cat-chip:hover span { color: #1e362b; }
+  .cat-scroll { gap: 16px; padding: 8px 56px; }
+  /* Scroll nav buttons styling for visibility */
+  .cat-nav { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 50%; background: #ffffffd9; backdrop-filter: blur(4px); border: 1px solid #d6e2db; cursor: pointer; transition: background .2s; }
+  .cat-nav:hover { background: #fff; }
+  .cat-nav mat-icon { color: #0c7c3d; }
+  .fade { display: none; }
   .brand { font-weight: 600; letter-spacing: .2px; }
   .container { padding: 20px; max-width: 1200px; margin-inline: auto; }
   .cat-nav { position: absolute; top: 50%; transform: translateY(-50%); z-index: 1; background: color-mix(in srgb, var(--mat-sys-surface) 88%, transparent); box-shadow: 0 2px 10px rgba(0,0,0,.2); }
@@ -66,3 +75,38 @@
   .fade.left { left: 0; background: linear-gradient(90deg, var(--mat-sys-surface), transparent); }
   .fade.right { right: 0; background: linear-gradient(270deg, var(--mat-sys-surface), transparent); }
 </style>
+
+<footer class="app-footer">
+  <div class="container">
+  <span class="brand">The Chapin Shop</span>
+    <div class="cols">
+      <div>
+        <h4>Conócenos</h4>
+        <a href="#">Sobre nosotros</a><br>
+        <a href="#">Preguntas frecuentes</a><br>
+        <a href="#">Entrega a domicilio</a>
+      </div>
+      <div>
+        <h4>Políticas</h4>
+  <a routerLink="/return-policy" fragment="terms">Términos y condiciones</a><br>
+  <a routerLink="/return-policy">Política de devolución</a><br>
+        <a href="#">Privacidad</a>
+      </div>
+      <div>
+        <h4>Síguenos</h4>
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a><br>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a><br>
+        <a href="https://www.tiktok.com/" target="_blank" rel="noopener">TikTok</a>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <a href="tel:+50238374625">+502 3837 4625</a><br>
+  <a href="mailto:soporte&#64;superchapin.gt">soporte&#64;superchapin.gt</a>
+      </div>
+    </div>
+    <div class="bottom">
+  <div>&copy; {{ today | date:'yyyy' }} The Chapin Shop. Todos los derechos reservados.</div>
+      <div class="text-muted">Hecho con ❤️ en Guatemala</div>
+    </div>
+  </div>
+</footer>

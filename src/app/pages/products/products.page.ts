@@ -20,11 +20,11 @@ import { Category, Product } from '../../models/models';
   template: `
   <div class="hero">
     <div class="hero-track">
-      <div class="slide" style="background: linear-gradient(90deg,#2e7d32,#a5d6a7);">
+  <div class="slide gradient-green">
         <div class="slide-content">
           <div>
-            <h2>Vaso gratis para tu café instantáneo</h2>
-            <p>Descubre ofertas de bebidas y más</p>
+    <h2 class="hero-head">¡Envío gratis en compras mayores a Q350!</h2>
+    <p class="hero-sub">Aprovecha las ofertas de la semana y llena tu carrito con productos frescos.</p>
           </div>
           <img src="https://picsum.photos/seed/coffee-hero/800/200" alt="Coffee" />
         </div>
@@ -58,29 +58,37 @@ import { Category, Product } from '../../models/models';
     </div>
   `,
   styles: [`
-    .hero { margin-bottom: 16px; }
-    .hero-track { position: relative; border-radius: 16px; overflow: hidden; }
-    .slide { width: 100%; min-height: 220px; display: flex; align-items: center; }
-    .slide-content { display: grid; grid-template-columns: 1fr 320px; align-items: center; gap: 16px; padding: 16px 20px; color: white; }
-    .slide-content img { width: 100%; height: 200px; object-fit: cover; border-radius: 12px; box-shadow: 0 6px 24px rgba(0,0,0,.25); }
-    .section-title { margin: 8px 0 16px; font-weight: 600; }
+    .hero { margin-bottom: 24px; position: relative; }
+    .hero-track { position: relative; border-radius: 24px; overflow: hidden; }
+    .slide { width: 100%; min-height: 240px; display: flex; align-items: center; }
+    .gradient-green { background: linear-gradient(100deg,#0c7c3d 0%,#089a4a 55%,#15b75b 100%); }
+    .slide-content { display: grid; grid-template-columns: 1fr 360px; align-items: center; gap: 24px; padding: 32px 40px; color: white; }
+    .slide-content img { width: 100%; height: 220px; object-fit: cover; border-radius: 16px; box-shadow: 0 12px 32px -4px rgba(0,0,0,.4); }
+    .hero-head { font-size: clamp(1.6rem,3vw,2.2rem); margin: 0 0 8px; letter-spacing: .5px; }
+    .hero-sub { margin: 0; font-weight: 300; font-size: 1.05rem; }
+    .section-title { margin: 0 0 20px; font-weight: 600; }
   .grid { display: grid; grid-template-columns: 300px 1fr; gap: 20px; }
   .products { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; }
-  .product-card { display: flex; flex-direction: column; transition: transform .15s ease, box-shadow .2s ease; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+  .product-card { display: flex; flex-direction: column; transition: transform .15s ease, box-shadow .25s ease; box-shadow: 0 2px 6px -2px rgba(0,0,0,.15); position: relative; background: #ffffff; }
   .product-card img[mat-card-image] {
     height: 180px;
     width: 100%;
     object-fit: contain; /* preserve aspect ratio without cropping */
     object-position: center;
-    background: var(--mat-sys-surface-variant);
+    background: linear-gradient(145deg,#ffffff,#f1f5f2);
     padding: 8px;
     box-sizing: border-box;
   }
-  .product-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,.12); }
-    mat-card-content { flex: 1; }
-    .price { font-weight: 700; color: var(--mat-sys-primary); margin-right: 8px; }
-    .price-old { text-decoration: line-through; opacity: .6; margin-right: 8px; }
-    .badge { background: #ff8f00; color: #1b1b1b; border-radius: 8px; padding: 2px 6px; font-size: 12px; font-weight: 700; }
+  .product-card:hover { transform: translateY(-4px); box-shadow: 0 18px 40px -12px rgba(0,0,0,.35); }
+  mat-card-content { flex: 1; background: #fafdfb; }
+  .price { font-weight: 700; color: var(--mat-sys-primary); margin-right: 8px; }
+  .price-old { text-decoration: line-through; opacity: .55; margin-right: 8px; }
+  mat-card-content p { color: #2f4038; }
+    .badge { position: absolute; top: 10px; left: 10px; background: var(--brand-accent); color: #1b1b1b; border-radius: 10px; padding: 4px 8px; font-size: 12px; font-weight: 700; box-shadow: 0 2px 4px rgba(0,0,0,.2); }
+    @media (max-width: 900px) {
+      .slide-content { grid-template-columns: 1fr; text-align: center; padding: 28px 24px; }
+      .slide-content img { display: none; }
+    }
   `]
 })
 export class ProductsPage implements OnInit {

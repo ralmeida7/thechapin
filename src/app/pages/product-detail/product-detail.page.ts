@@ -35,9 +35,14 @@ import { Product } from '../../models/models';
   }
   `,
   styles: [`
-    .detail { display: grid; grid-template-columns: 360px 1fr; gap: 24px; }
-    .image { width: 100%; border-radius: 8px; }
-    .actions { display: flex; gap: 12px; margin-top: 16px; }
+    .detail { display: grid; grid-template-columns: 400px 1fr; gap: 40px; align-items: start; }
+    .image { width: 100%; border-radius: 20px; box-shadow: var(--brand-shadow); background: linear-gradient(145deg,#ffffff,#f1f5f2); padding: 24px; object-fit: contain; }
+    h2 { margin: 0 0 8px; font-size: 2rem; font-family: 'Poppins'; }
+    h3 { margin: 16px 0; color: var(--brand-primary); font-size: 1.6rem; }
+    .actions { display: flex; gap: 16px; margin-top: 24px; }
+    @media (max-width: 900px) {
+      .detail { grid-template-columns: 1fr; }
+    }
   `]
 })
 export class ProductDetailPage implements OnInit {

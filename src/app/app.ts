@@ -1,5 +1,6 @@
 import { Component, signal, inject, OnInit } from '@angular/core';
 import { RouterOutlet, RouterLink, Router } from '@angular/router';
+import { DatePipe } from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -11,7 +12,7 @@ import { ProductsService } from './services/products.service';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, RouterLink, MatToolbarModule, MatButtonModule, MatIconModule, MatBadgeModule, MatRippleModule],
+  imports: [RouterOutlet, RouterLink, DatePipe, MatToolbarModule, MatButtonModule, MatIconModule, MatBadgeModule, MatRippleModule],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
@@ -20,6 +21,7 @@ export class App implements OnInit {
   private cart = inject(CartService);
   private products = inject(ProductsService);
   private router = inject(Router);
+  protected readonly today = new Date();
   cartCount() { return this.cart.count(); }
   categories() { return this.products.categories(); }
   goSearch(q: string) {
