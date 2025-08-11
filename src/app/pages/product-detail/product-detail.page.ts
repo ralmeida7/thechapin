@@ -31,7 +31,7 @@ import { Product } from '../../models/models';
         <h1 class="title">{{ product()!.title }}</h1>
         <p class="desc" *ngIf="product()!.description">{{ product()!.description }}</p>
         <div class="price-row">
-          <span class="price">{{ product()!.price | currency:'GTQ':'symbol':'1.2-2' }}</span>
+          <span class="price">{{ product()!.price | currency:'Q':'symbol':'1.2-2' }}</span>
           <span class="vat-note">IVA incluido</span>
         </div>
         <div class="purchase">
