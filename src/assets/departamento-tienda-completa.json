@@ -1,0 +1,2753 @@
+{
+    "departamentos": [
+        {
+            "id_departamento": 13,
+            "titulo": "Ofertas",
+            "descripcion": "Departamento de Ofertas Especiales",
+            "imagen": "https://picsum.photos/seed/sale-discount/64/64",
+            "orden": 1,
+            "Categorias": [
+                {
+                    "imagen": "",
+                    "titulo": "Ofertas de Temporada",
+                    "id_categoria": 100,
+                    "sub_categorias": [
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Compra ya",
+                            "id_sub_categoria": 371
+                        }
+                    ]
+                },
+                {
+                    "imagen": "",
+                    "titulo": "Todo para tu fiambre",
+                    "id_categoria": 101,
+                    "sub_categorias": null
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Vinos",
+                    "id_categoria": 104,
+                    "sub_categorias": null
+                }
+            ]
+        },
+        {
+            "id_departamento": 4,
+            "titulo": "Bebidas Alcohólicas",
+            "descripcion": "Sin Descripción",
+            "imagen": "https://picsum.photos/seed/alcohol-drinks/64/64",
+            "orden": 2,
+            "Categorias": [
+                {
+                    "imagen": null,
+                    "titulo": "Aperitivos y Digestivos",
+                    "id_categoria": 7,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Licores Especiales",
+                            "id_sub_categoria": 195
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Cerveza",
+                    "id_categoria": 22,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Cerveza Importada",
+                            "id_sub_categoria": 65
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Cerveza Nacional",
+                            "id_sub_categoria": 67
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Champagne y Espumantes",
+                    "id_categoria": 23,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Espumantes Especiales Sidras",
+                            "id_sub_categoria": 134
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Espumantes Premium",
+                            "id_sub_categoria": 135
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Cigarros",
+                    "id_categoria": 24,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Cigarros",
+                            "id_sub_categoria": 73
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cigarros Electronicos",
+                            "id_sub_categoria": 375
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Ginebra",
+                    "id_categoria": 50,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Ginebra",
+                            "id_sub_categoria": 159
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Ginebra Premium",
+                            "id_sub_categoria": 160
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Mezcladores",
+                    "id_categoria": 66,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Mezcladores Preparados",
+                            "id_sub_categoria": 222
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Michelada y Chelada Mix",
+                            "id_sub_categoria": 223
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Otras Bebidas Alcohólicas",
+                    "id_categoria": 67,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Coolers",
+                            "id_sub_categoria": 87
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Sangría",
+                            "id_sub_categoria": 302
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Ron y Aguardiente",
+                    "id_categoria": 83,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Aguardiente",
+                            "id_sub_categoria": 16
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Ron Añejo 15 Años y Más",
+                            "id_sub_categoria": 288
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Ron Añejo 8 y 12 Años",
+                            "id_sub_categoria": 289
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Ron Blanco y Otros",
+                            "id_sub_categoria": 290
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Tequila y Mezcal",
+                    "id_categoria": 88,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Mezcal",
+                            "id_sub_categoria": 221
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Tequila Añejo y Reposado",
+                            "id_sub_categoria": 326
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Tequila Blanco y Cristalino",
+                            "id_sub_categoria": 327
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Tequila Premium",
+                            "id_sub_categoria": 328
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Vino Blanco",
+                    "id_categoria": 91,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Reserva y Gran Reserva",
+                            "id_sub_categoria": 287
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Varietal Crianza y Tempranillo",
+                            "id_sub_categoria": 346
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Vino Rosado",
+                    "id_categoria": 92,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Reserva y Gran Reserva",
+                            "id_sub_categoria": 360
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Varietal Crianza y Tempranillo",
+                            "id_sub_categoria": 362
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Vino Tinto",
+                    "id_categoria": 93,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Reserva y Gran Reserva",
+                            "id_sub_categoria": 361
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Varietal Crianza y Tempranillo",
+                            "id_sub_categoria": 363
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Vodka",
+                    "id_categoria": 94,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Vodka",
+                            "id_sub_categoria": 352
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Vodka Destilado Premium",
+                            "id_sub_categoria": 353
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Whisky",
+                    "id_categoria": 95,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Whisky Añejo 12 y 13 Años",
+                            "id_sub_categoria": 354
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Whisky Añejo 15 Años y Más",
+                            "id_sub_categoria": 355
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Whisky Añejo 5 Años y Otros",
+                            "id_sub_categoria": 356
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id_departamento": 11,
+            "titulo": "Carnes, Mariscos y Huevos",
+            "descripcion": "Sin Descripción",
+            "imagen": "https://picsum.photos/seed/meat-seafood-eggs/64/64",
+            "orden": 2,
+            "Categorias": [
+                {
+                    "imagen": null,
+                    "titulo": "Carne de Cerdo",
+                    "id_categoria": 16,
+                    "sub_categorias": [
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Otros Cortes de Cerdo",
+                            "id_sub_categoria": 62
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Carne Molida",
+                    "id_categoria": 17,
+                    "sub_categorias": [
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Carne Molida de Pavo",
+                            "id_sub_categoria": 264
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Carne Molida de Res",
+                            "id_sub_categoria": 285
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Carne Molida de Pato",
+                            "id_sub_categoria": 365
+                        }
+                    ]
+                },
+                {
+                    "imagen": "",
+                    "titulo": "Carne de Res",
+                    "id_categoria": 18,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Importada",
+                            "id_sub_categoria": 171
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Nacional",
+                            "id_sub_categoria": 368
+                        }
+                    ]
+                },
+                {
+                    "imagen": "",
+                    "titulo": "Embutidos",
+                    "id_categoria": 19,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Chorizo",
+                            "id_sub_categoria": 72
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Longaniza",
+                            "id_sub_categoria": 203
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Comida Facil",
+                    "id_categoria": 26,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Carnes Preparadas",
+                            "id_sub_categoria": 58
+                        },
+                        {
+                            "imagen": "Sin Imagen Sin Imagen",
+                            "titulo": "Pollo Preparado",
+                            "id_sub_categoria": 275
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Tortas de Carne",
+                            "id_sub_categoria": 337
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Cortes Básicos",
+                    "id_categoria": 29,
+                    "sub_categorias": [
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Carne de Cerdo",
+                            "id_sub_categoria": 367
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Carne de Res",
+                            "id_sub_categoria": 369
+                        }
+                    ]
+                },
+                {
+                    "imagen": "",
+                    "titulo": "Huevos",
+                    "id_categoria": 56,
+                    "sub_categorias": [
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Huevos",
+                            "id_sub_categoria": 156
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Mariscos y Pescados",
+                    "id_categoria": 64,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Camarones y Mariscos",
+                            "id_sub_categoria": 54
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Pescado",
+                            "id_sub_categoria": 142
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Pollo, Pavo y Pato",
+                    "id_categoria": 76,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Pato",
+                            "id_sub_categoria": 263
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pollo",
+                            "id_sub_categoria": 274
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pavo",
+                            "id_sub_categoria": 366
+                        }
+                    ]
+                },
+                {
+                    "imagen": "",
+                    "titulo": "carne de cerdo",
+                    "id_categoria": 103,
+                    "sub_categorias": null
+                }
+            ]
+        },
+        {
+            "id_departamento": 10,
+            "titulo": "Frutas, Verduras y Panadería",
+            "descripcion": "Sin Descripción",
+            "imagen": "https://picsum.photos/seed/fruits-vegetables-bakery/64/64",
+            "orden": 3,
+            "Categorias": [
+                {
+                    "imagen": null,
+                    "titulo": "Frutas",
+                    "id_categoria": 45,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Berries",
+                            "id_sub_categoria": 41
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Duraznos y Nectarinas",
+                            "id_sub_categoria": 121
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Frutas de Temporada",
+                            "id_sub_categoria": 151
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Manzanas y Peras",
+                            "id_sub_categoria": 208
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Naranja, Limon y Citricos",
+                            "id_sub_categoria": 227
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Banano, Piña y Tropicales",
+                            "id_sub_categoria": 342
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Uvas y Ciruelas",
+                            "id_sub_categoria": 345
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Pan Dulce",
+                    "id_categoria": 70,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Bizcochos y Pasteles",
+                            "id_sub_categoria": 43
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Empacados",
+                            "id_sub_categoria": 123
+                        }
+                    ]
+                },
+                {
+                    "imagen": "",
+                    "titulo": "Pan",
+                    "id_categoria": 71,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Empanizadores",
+                            "id_sub_categoria": 124
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pan Congelado",
+                            "id_sub_categoria": 243
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Pan Europeo y Rustico",
+                            "id_sub_categoria": 244
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pan Fresco",
+                            "id_sub_categoria": 245
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pan Tostado",
+                            "id_sub_categoria": 246
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Ready To Eat",
+                    "id_categoria": 81,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Ready To Eat",
+                            "id_sub_categoria": 282
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Tortilleria",
+                    "id_categoria": 89,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Tortillas de Harina",
+                            "id_sub_categoria": 338
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Tortillas de Maiz",
+                            "id_sub_categoria": 339
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Tostadas",
+                            "id_sub_categoria": 340
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Verduras",
+                    "id_categoria": 90,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Ajo, Cebollas Y Cebollines",
+                            "id_sub_categoria": 17
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Chiles y Pimientos",
+                            "id_sub_categoria": 70
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Ensaladas y Empacados",
+                            "id_sub_categoria": 129
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Especias Frescas",
+                            "id_sub_categoria": 133
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Hongos y Champinones",
+                            "id_sub_categoria": 170
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Lechugas, Coles y Hierbas",
+                            "id_sub_categoria": 192
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Otras Verduras Basicas",
+                            "id_sub_categoria": 234
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Papas y Tuberculos",
+                            "id_sub_categoria": 252
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Tomates, Aguacates y Basicos",
+                            "id_sub_categoria": 336
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id_departamento": 1,
+            "titulo": "Alimentos",
+            "descripcion": "Sin Descripción",
+            "imagen": "https://picsum.photos/seed/groceries/64/64",
+            "orden": 4,
+            "Categorias": [
+                {
+                    "imagen": "",
+                    "titulo": "Aceites y Margarinas",
+                    "id_categoria": 3,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Aceite de Oliva",
+                            "id_sub_categoria": 8
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Aceite de Semillas y Vegetal",
+                            "id_sub_categoria": 9
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Aceite Spray",
+                            "id_sub_categoria": 10
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Alimentos Instantaneos",
+                    "id_categoria": 6,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Comida Rápida",
+                            "id_sub_categoria": 81
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Arroz, Frijol y Otros Granos",
+                    "id_categoria": 9,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Arroz",
+                            "id_sub_categoria": 30
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Frijol Grano Entero",
+                            "id_sub_categoria": 148
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Frijoles Volteados O Molidos",
+                            "id_sub_categoria": 149
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Otros Granos",
+                            "id_sub_categoria": 237
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Azucar y Postres",
+                    "id_categoria": 10,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Azucar",
+                            "id_sub_categoria": 35
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Gelatinas y Flan",
+                            "id_sub_categoria": 158
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Sustituto de Azucar",
+                            "id_sub_categoria": 320
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Cafe, Te y Sustitutos",
+                    "id_categoria": 14,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Cafe Instantaneo",
+                            "id_sub_categoria": 50
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cafe Molido",
+                            "id_sub_categoria": 52
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Capsulas de Cafe",
+                            "id_sub_categoria": 55
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Crema para Cafe",
+                            "id_sub_categoria": 94
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Filtros para Cafe",
+                            "id_sub_categoria": 143
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Té e Infusiones",
+                            "id_sub_categoria": 323
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Carbon y Complementos",
+                    "id_categoria": 15,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Carbón y Fósforos",
+                            "id_sub_categoria": 57
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Cereales y Barras",
+                    "id_categoria": 21,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Avena y Granola",
+                            "id_sub_categoria": 34
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Barras de Cereal",
+                            "id_sub_categoria": 37
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Cereal",
+                            "id_sub_categoria": 63
+                        }
+                    ]
+                },
+                {
+                    "imagen": "",
+                    "titulo": "Combos",
+                    "id_categoria": 25,
+                    "sub_categorias": null
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Dietas Especiales",
+                    "id_categoria": 39,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Gluten Free",
+                            "id_sub_categoria": 161
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Sugar Free",
+                            "id_sub_categoria": 316
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Vegano",
+                            "id_sub_categoria": 347
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Dulces y Chocolates",
+                    "id_categoria": 40,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Caramelos",
+                            "id_sub_categoria": 56
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Chocolates",
+                            "id_sub_categoria": 71
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Gomitas",
+                            "id_sub_categoria": 162
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Enlatados y Conservas",
+                    "id_categoria": 42,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Atún y Pescado",
+                            "id_sub_categoria": 32
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Frutas en Almíbar",
+                            "id_sub_categoria": 152
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Vegetales Enlatados",
+                            "id_sub_categoria": 348
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Especias y Sazonadores",
+                    "id_categoria": 43,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Chiles",
+                            "id_sub_categoria": 69
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Consomes",
+                            "id_sub_categoria": 86
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Especias",
+                            "id_sub_categoria": 132
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Sal y Condimentos",
+                            "id_sub_categoria": 293
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Galletas",
+                    "id_categoria": 47,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Galletas Dulces",
+                            "id_sub_categoria": 154
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Galletas Saladas",
+                            "id_sub_categoria": 155
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Harinas y Repostería",
+                    "id_categoria": 51,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Harina de Trigo y Maiz",
+                            "id_sub_categoria": 164
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Panqueques",
+                            "id_sub_categoria": 247
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Reposteria",
+                            "id_sub_categoria": 284
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Leche",
+                    "id_categoria": 60,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Condensada",
+                            "id_sub_categoria": 85
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "En Polvo",
+                            "id_sub_categoria": 125
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Leche de Soya",
+                            "id_sub_categoria": 187
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Leche Deslactosada",
+                            "id_sub_categoria": 188
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Leche Entera",
+                            "id_sub_categoria": 189
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Leche Saborizada",
+                            "id_sub_categoria": 190
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Leche Semi y Descremada",
+                            "id_sub_categoria": 191
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Mantequillas y Margarinas",
+                    "id_categoria": 63,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Manteca",
+                            "id_sub_categoria": 205
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Mantequilla",
+                            "id_sub_categoria": 206
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Margarina",
+                            "id_sub_categoria": 215
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Mermeladas y Miel",
+                    "id_categoria": 65,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Cremas y Mantequillas",
+                            "id_sub_categoria": 97
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Dulce de Leche, Sirope y Otros",
+                            "id_sub_categoria": 120
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Mermelada",
+                            "id_sub_categoria": 220
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Miel",
+                            "id_sub_categoria": 224
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Pastas, Fideos y Sopas",
+                    "id_categoria": 74,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Fideos Orientales",
+                            "id_sub_categoria": 141
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Otras Pastas",
+                            "id_sub_categoria": 233
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pastas Largas y Cortas",
+                            "id_sub_categoria": 259
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pastas para Rellenar",
+                            "id_sub_categoria": 260
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Salsas para Pasta y Pizza",
+                            "id_sub_categoria": 299
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Sopas e Instantaneos",
+                            "id_sub_categoria": 312
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Productos Naturales",
+                    "id_categoria": 79,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Té e Infusiones Naturales",
+                            "id_sub_categoria": 324
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Reposteria y Pasteleria",
+                    "id_categoria": 82,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Pays y Pasteles",
+                            "id_sub_categoria": 265
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Salsa, Aderezos y Vinagre",
+                    "id_categoria": 84,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Aderezos y Vinagretas",
+                            "id_sub_categoria": 13
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Mayonesa",
+                            "id_sub_categoria": 219
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Salsa de Soya y Teriyaki",
+                            "id_sub_categoria": 296
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Salsa de Tomate y Mostaza",
+                            "id_sub_categoria": 297
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Salsa Picante",
+                            "id_sub_categoria": 298
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Salsas para Sazonar",
+                            "id_sub_categoria": 300
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Vinagre",
+                            "id_sub_categoria": 350
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Snacks y Fruta Seca",
+                    "id_categoria": 85,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Dip",
+                            "id_sub_categoria": 119
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Frutas Secas",
+                            "id_sub_categoria": 153
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Maní y Otras Semillas",
+                            "id_sub_categoria": 204
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Nueces y Almendras",
+                            "id_sub_categoria": 229
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Nueces y Semillas",
+                            "id_sub_categoria": 230
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Palomitas",
+                            "id_sub_categoria": 242
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Papas y Frituras",
+                            "id_sub_categoria": 251
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Saludables",
+                            "id_sub_categoria": 301
+                        }
+                    ]
+                },
+                {
+                    "imagen": "",
+                    "titulo": "Bebidas de Almendra y Otros",
+                    "id_categoria": 87,
+                    "sub_categorias": [
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Leche de Almendra",
+                            "id_sub_categoria": 39
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id_departamento": 3,
+            "titulo": "Bebidas",
+            "descripcion": "Sin Descripción",
+            "imagen": "https://picsum.photos/seed/beverages-drinks/64/64",
+            "orden": 6,
+            "Categorias": [
+                {
+                    "imagen": null,
+                    "titulo": "Agua",
+                    "id_categoria": 5,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Agua Natural",
+                            "id_sub_categoria": 14
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Agua Saborizada",
+                            "id_sub_categoria": 15
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Cafe y Te Preparado",
+                    "id_categoria": 13,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Cafe Listo para Beber",
+                            "id_sub_categoria": 51
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Te listo para Beber",
+                            "id_sub_categoria": 325
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Energizantes e Hidratantes",
+                    "id_categoria": 41,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Energizante",
+                            "id_sub_categoria": 126
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Hidratante",
+                            "id_sub_categoria": 166
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Gaseosas",
+                    "id_categoria": 48,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Light y Sin Azucar",
+                            "id_sub_categoria": 196
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Sabor Cola",
+                            "id_sub_categoria": 291
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Sabores Varios",
+                            "id_sub_categoria": 292
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Jugos y Nectares",
+                    "id_categoria": 58,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Jugo de Frutas",
+                            "id_sub_categoria": 179
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Jugo de Verduras",
+                            "id_sub_categoria": 180
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Nectar",
+                            "id_sub_categoria": 228
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Polvo y Liquidos Concentrados",
+                    "id_categoria": 77,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Bebidas en Polvo",
+                            "id_sub_categoria": 40
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Liquido Concentrado",
+                            "id_sub_categoria": 201
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id_departamento": 12,
+            "titulo": "Refrigerados y Congelados",
+            "descripcion": "Sin Descripción",
+            "imagen": "https://picsum.photos/seed/frozen-food/64/64",
+            "orden": 7,
+            "Categorias": [
+                {
+                    "imagen": null,
+                    "titulo": "Bebidas Refrigeradas",
+                    "id_categoria": 12,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Jugos Refrigerados",
+                            "id_sub_categoria": 181
+                        }
+                    ]
+                },
+                {
+                    "imagen": "",
+                    "titulo": "Embutidos",
+                    "id_categoria": 20,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Embutidos Enlatados",
+                            "id_sub_categoria": 122
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Jamon",
+                            "id_sub_categoria": 177
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Jamones Curados",
+                            "id_sub_categoria": 178
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pate",
+                            "id_sub_categoria": 261
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Salami y Pepperoni",
+                            "id_sub_categoria": 294
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Salchichas",
+                            "id_sub_categoria": 295
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Tocino",
+                            "id_sub_categoria": 335
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Congelados",
+                    "id_categoria": 28,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Hielo",
+                            "id_sub_categoria": 167
+                        }
+                    ]
+                },
+                {
+                    "imagen": "",
+                    "titulo": "Crema y Mantequilla",
+                    "id_categoria": 31,
+                    "sub_categorias": [
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Crema",
+                            "id_sub_categoria": 283
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Frutas y Verdura Congelada",
+                    "id_categoria": 46,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Frutas Congeladas",
+                            "id_sub_categoria": 150
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Verduras Congeladas",
+                            "id_sub_categoria": 349
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Otros Tipos de Carnes",
+                    "id_categoria": 69,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Otras Carnes",
+                            "id_sub_categoria": 231
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Postres Congelados",
+                    "id_categoria": 78,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Helados",
+                            "id_sub_categoria": 165
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Panqueques y Wafles",
+                            "id_sub_categoria": 257
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Queso",
+                    "id_categoria": 80,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Más Quesos",
+                            "id_sub_categoria": 216
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Queso en Bloque",
+                            "id_sub_categoria": 277
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Queso Crema",
+                            "id_sub_categoria": 278
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Queso Fresco",
+                            "id_sub_categoria": 279
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Queso Rayado y Rodajado",
+                            "id_sub_categoria": 280
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Yogurt",
+                    "id_categoria": 96,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Yogurt Batido",
+                            "id_sub_categoria": 357
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Yogurt Bebible",
+                            "id_sub_categoria": 358
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Yogurt Natural",
+                            "id_sub_categoria": 359
+                        }
+                    ]
+                },
+                {
+                    "imagen": "",
+                    "titulo": "Comida Congelada",
+                    "id_categoria": 97,
+                    "sub_categorias": [
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Otra Comida Congelada",
+                            "id_sub_categoria": 80
+                        },
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Papas y Tortas Congeladas",
+                            "id_sub_categoria": 250
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Tacos, Pizzas y Pastas",
+                            "id_sub_categoria": 321
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pollo Preparado",
+                            "id_sub_categoria": 370
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id_departamento": 6,
+            "titulo": "Domésticos y limpieza del hogar",
+            "descripcion": "Sin Descripción",
+            "imagen": "https://picsum.photos/seed/cleaning-household/64/64",
+            "orden": 8,
+            "Categorias": [
+                {
+                    "imagen": null,
+                    "titulo": "Accesorios para Limpieza",
+                    "id_categoria": 1,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Basureros",
+                            "id_sub_categoria": 38
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Escobas, Cepillos y Otros",
+                            "id_sub_categoria": 130
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Fibras y Esponjas",
+                            "id_sub_categoria": 140
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Guantes",
+                            "id_sub_categoria": 163
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Aromatizantes",
+                    "id_categoria": 8,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Aromatizante Ambiental",
+                            "id_sub_categoria": 29
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Desechables",
+                    "id_categoria": 37,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Bolsas para Basura",
+                            "id_sub_categoria": 47
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Bolsas para Cocina",
+                            "id_sub_categoria": 48
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cubiertos, Vasos y Platos",
+                            "id_sub_categoria": 104
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cubiertos, Vasos Y Platos Bio",
+                            "id_sub_categoria": 105
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Palillos y Pajillas",
+                            "id_sub_categoria": 241
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Papel Aluminio y Adherente",
+                            "id_sub_categoria": 253
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Servilletas",
+                            "id_sub_categoria": 305
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Toallas de Cocina",
+                            "id_sub_categoria": 331
+                        }
+                    ]
+                },
+                {
+                    "imagen": "",
+                    "titulo": "Lavanderia",
+                    "id_categoria": 38,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Detergente en Polvo",
+                            "id_sub_categoria": 117
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Detergente Liquido",
+                            "id_sub_categoria": 118
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Hogar",
+                    "id_categoria": 55,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Cuidado para Zapatos",
+                            "id_sub_categoria": 111
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Patio y Jardín",
+                            "id_sub_categoria": 262
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pilas y Baterías",
+                            "id_sub_categoria": 268
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Termos",
+                            "id_sub_categoria": 329
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Jabon de Lavanderia",
+                    "id_categoria": 57,
+                    "sub_categorias": [
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Jabon en Bola",
+                            "id_sub_categoria": 174
+                        }
+                    ]
+                },
+                {
+                    "imagen": "",
+                    "titulo": "Limpieza de Cocina",
+                    "id_categoria": 59,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Lavaplatos En Polvo y En Pasta",
+                            "id_sub_categoria": 185
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Lavaplatos Liquido",
+                            "id_sub_categoria": 186
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Limpieza del Hogar",
+                    "id_categoria": 62,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Cloro",
+                            "id_sub_categoria": 77
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Desinfectantes",
+                            "id_sub_categoria": 112
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Destapacaños",
+                            "id_sub_categoria": 116
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Insecticidas y Trampas",
+                            "id_sub_categoria": 173
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Limpiadores Multiusos",
+                            "id_sub_categoria": 197
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Limpieza de Baño",
+                            "id_sub_categoria": 198
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Limpieza de Pisos",
+                            "id_sub_categoria": 199
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Otros Limpieza",
+                            "id_sub_categoria": 239
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Toallitas Desinfectantes",
+                            "id_sub_categoria": 333
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Fibras y Esponjas",
+                            "id_sub_categoria": 364
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Papel Higienico",
+                    "id_categoria": 73,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Papel Higienico",
+                            "id_sub_categoria": 254
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Suavizante",
+                    "id_categoria": 86,
+                    "sub_categorias": [
+                        {
+                            "imagen": "Sin Imagen",
+                            "titulo": "Suavizantes",
+                            "id_sub_categoria": 314
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id_departamento": 5,
+            "titulo": "Cuidado Personal",
+            "descripcion": "Sin Descripción",
+            "imagen": "https://picsum.photos/seed/personal-care/64/64",
+            "orden": 9,
+            "Categorias": [
+                {
+                    "imagen": null,
+                    "titulo": "Afeitado",
+                    "id_categoria": 4,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Cuidado de la Mujer",
+                            "id_sub_categoria": 107
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cuidado del Hombre",
+                            "id_sub_categoria": 109
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Cosmeticos",
+                    "id_categoria": 30,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Accesorios Cosméticos",
+                            "id_sub_categoria": 1
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Desmaquillantes y Agua Micelar",
+                            "id_sub_categoria": 113
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Cuidado Bucal",
+                    "id_categoria": 32,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Cepillo Dental",
+                            "id_sub_categoria": 61
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Enjuague Bucal",
+                            "id_sub_categoria": 128
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Higiene Bucal para Ninos",
+                            "id_sub_categoria": 168
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Hilo Dental y Especializados",
+                            "id_sub_categoria": 169
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pasta Dental",
+                            "id_sub_categoria": 258
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Cuidado del Cabello",
+                    "id_categoria": 33,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Acondicionadores",
+                            "id_sub_categoria": 12
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Crema para Peinar",
+                            "id_sub_categoria": 95
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Gel, Mousse y Spray",
+                            "id_sub_categoria": 157
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Shampoo",
+                            "id_sub_categoria": 306
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Shampoo Anticaspa",
+                            "id_sub_categoria": 307
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Tinte Femenino",
+                            "id_sub_categoria": 330
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Tratamiento Capilar",
+                            "id_sub_categoria": 341
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Cuidado Facial",
+                    "id_categoria": 34,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Crema Facial",
+                            "id_sub_categoria": 93
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Cuidado Intimo",
+                    "id_categoria": 35,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Toallas y Tampones",
+                            "id_sub_categoria": 332
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Cuidado Personal y Belleza",
+                    "id_categoria": 36,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Accesorios de Belleza",
+                            "id_sub_categoria": 2
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cuidado Facial",
+                            "id_sub_categoria": 110
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Higiene y Cuidado Corporal",
+                    "id_categoria": 53,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Accesorios para Ducha",
+                            "id_sub_categoria": 6
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Bloqueadores y Bronceadores",
+                            "id_sub_categoria": 46
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Crema Corporal",
+                            "id_sub_categoria": 92
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Desodorante Femenino",
+                            "id_sub_categoria": 114
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Desodorante Masculino",
+                            "id_sub_categoria": 115
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Jabon y Gel Corporal",
+                            "id_sub_categoria": 176
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Higiene y Cuidado Para Manos",
+                    "id_categoria": 54,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Jabon Liquido Para Manos",
+                            "id_sub_categoria": 175
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Mascarillas",
+                            "id_sub_categoria": 217
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Quitaesmaltes",
+                            "id_sub_categoria": 281
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Productos Naturales",
+                    "id_categoria": 98,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Cuidado Del Cabello",
+                            "id_sub_categoria": 108
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id_departamento": 8,
+            "titulo": "Mascotas",
+            "descripcion": "Sin Descripción",
+            "imagen": "https://picsum.photos/seed/pets-food/64/64",
+            "orden": 10,
+            "Categorias": [
+                {
+                    "imagen": null,
+                    "titulo": "Accesorios para Mascotas",
+                    "id_categoria": 2,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Premios y Carnazas",
+                            "id_sub_categoria": 276
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Gatos",
+                    "id_categoria": 49,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Alimento Humedo Para Gatos",
+                            "id_sub_categoria": 19
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Alimento Seco Para Gatos",
+                            "id_sub_categoria": 21
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Arena y Accesorios Para Gatos",
+                            "id_sub_categoria": 28
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Higiene de Mascotas",
+                    "id_categoria": 52,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Limpieza y Cuidado",
+                            "id_sub_categoria": 200
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Otras Mascotas",
+                    "id_categoria": 68,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Otras Mascotas",
+                            "id_sub_categoria": 232
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Perros",
+                    "id_categoria": 75,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Alimento Humedo Para Perros",
+                            "id_sub_categoria": 20
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Alimento Seco Para Perros",
+                            "id_sub_categoria": 22
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id_departamento": 2,
+            "titulo": "Bebés",
+            "descripcion": "Sin Descripción",
+            "imagen": "https://picsum.photos/seed/baby-products/64/64",
+            "orden": 11,
+            "Categorias": [
+                {
+                    "imagen": null,
+                    "titulo": "Baño y Cuidado del Bebe",
+                    "id_categoria": 11,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Accesorios para Baño de Bebés",
+                            "id_sub_categoria": 5
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Crema, Gel y Locion para Bebé",
+                            "id_sub_categoria": 96
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Shampoo y Jabon para Bebé",
+                            "id_sub_categoria": 308
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Talco y Aceite para Bebé",
+                            "id_sub_categoria": 322
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Comida para Bebe y Lactancia",
+                    "id_categoria": 27,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Accesorios de Lactancia",
+                            "id_sub_categoria": 3
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Biberones y Tetinas",
+                            "id_sub_categoria": 42
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cereales y Galletas para Bebé",
+                            "id_sub_categoria": 64
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Compotas",
+                            "id_sub_categoria": 84
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Fórmulas Lacteas",
+                            "id_sub_categoria": 147
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Pañales y Toallitas Húmedas",
+                    "id_categoria": 72,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Pañales",
+                            "id_sub_categoria": 248
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Toallitas Húmedas",
+                            "id_sub_categoria": 334
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id_departamento": 9,
+            "titulo": "Medicinales",
+            "descripcion": "Sin Descripción",
+            "imagen": "https://picsum.photos/seed/pharmacy-medicine/64/64",
+            "orden": 12,
+            "Categorias": [
+                {
+                    "imagen": null,
+                    "titulo": "Farmacia",
+                    "id_categoria": 44,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Algodones, gasas y curitas",
+                            "id_sub_categoria": 18
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Analgésicos",
+                            "id_sub_categoria": 23
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Antiácidos y estomacales",
+                            "id_sub_categoria": 24
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Antibacteriales y alcoholes",
+                            "id_sub_categoria": 25
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Antigripales",
+                            "id_sub_categoria": 26
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Complementos alimenticios",
+                            "id_sub_categoria": 83
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Incontinencia",
+                            "id_sub_categoria": 172
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Material de curación",
+                            "id_sub_categoria": 218
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Otros farmacia",
+                            "id_sub_categoria": 236
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pañales para adulto",
+                            "id_sub_categoria": 249
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Sueros",
+                            "id_sub_categoria": 315
+                        }
+                    ]
+                },
+                {
+                    "imagen": null,
+                    "titulo": "Productos Naturales",
+                    "id_categoria": 99,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Aceites esenciales",
+                            "id_sub_categoria": 11
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Superfoods",
+                            "id_sub_categoria": 317
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Suplementos alimenticios",
+                            "id_sub_categoria": 318
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Suplementos Medicinales",
+                            "id_sub_categoria": 319
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Vitaminas",
+                            "id_sub_categoria": 351
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id_departamento": 7,
+            "titulo": "Librería",
+            "descripcion": "Sin Descripción",
+            "imagen": "https://picsum.photos/seed/stationery-books/64/64",
+            "orden": 13,
+            "Categorias": [
+                {
+                    "imagen": null,
+                    "titulo": "Librería y mobiliario oficina",
+                    "id_categoria": 61,
+                    "sub_categorias": [
+                        {
+                            "imagen": null,
+                            "titulo": "Accesorios de oficina",
+                            "id_sub_categoria": 4
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Accesorios para Máquinas Esc.",
+                            "id_sub_categoria": 7
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Archivadores",
+                            "id_sub_categoria": 27
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Arte y Manualidades",
+                            "id_sub_categoria": 31
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Autoadhesivos",
+                            "id_sub_categoria": 33
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Banderitas Adhesivas",
+                            "id_sub_categoria": 36
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Block de notas",
+                            "id_sub_categoria": 44
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Block de papeles",
+                            "id_sub_categoria": 45
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Borradores y sacapuntas",
+                            "id_sub_categoria": 49
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Calculadoras",
+                            "id_sub_categoria": 53
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cartapacios",
+                            "id_sub_categoria": 59
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cartuchos y tintas",
+                            "id_sub_categoria": 60
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cintas adhesivas",
+                            "id_sub_categoria": 74
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Clips y ataches",
+                            "id_sub_categoria": 76
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Compás",
+                            "id_sub_categoria": 82
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Crayones de cera",
+                            "id_sub_categoria": 88
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Crayones de madera",
+                            "id_sub_categoria": 89
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Crayones gel y pastel",
+                            "id_sub_categoria": 90
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Crayones y marcadores",
+                            "id_sub_categoria": 91
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cuaderno caligrafía",
+                            "id_sub_categoria": 98
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cuaderno cosido",
+                            "id_sub_categoria": 99
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cuaderno doble anillo",
+                            "id_sub_categoria": 100
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cuaderno empastado",
+                            "id_sub_categoria": 101
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cuaderno engrapado",
+                            "id_sub_categoria": 102
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Cuaderno espiral",
+                            "id_sub_categoria": 103
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Engrapadoras",
+                            "id_sub_categoria": 127
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Escuadras",
+                            "id_sub_categoria": 131
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Estuche de marcadores",
+                            "id_sub_categoria": 136
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Estuches geometrícos y reglas",
+                            "id_sub_categoria": 137
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Estuches porta lápices",
+                            "id_sub_categoria": 138
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Folder carta",
+                            "id_sub_categoria": 144
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Folder oficio",
+                            "id_sub_categoria": 145
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Folder plástico",
+                            "id_sub_categoria": 146
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Lapiceros y bolígrafos",
+                            "id_sub_categoria": 184
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Librería",
+                            "id_sub_categoria": 193
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Libros y diccionarios",
+                            "id_sub_categoria": 194
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Loncheras y pachones",
+                            "id_sub_categoria": 202
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Manualidades",
+                            "id_sub_categoria": 207
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Marcadores especializados",
+                            "id_sub_categoria": 209
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Marcadores metálicos",
+                            "id_sub_categoria": 210
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Marcadores para pizarra",
+                            "id_sub_categoria": 211
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Marcadores punto delgado",
+                            "id_sub_categoria": 212
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Marcadores punto fino",
+                            "id_sub_categoria": 213
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Marcadores punto grueso",
+                            "id_sub_categoria": 214
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Minas y portaminas",
+                            "id_sub_categoria": 225
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Mochilas",
+                            "id_sub_categoria": 226
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Otros cuadernos",
+                            "id_sub_categoria": 235
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Otros librería",
+                            "id_sub_categoria": 238
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Otros oficina",
+                            "id_sub_categoria": 240
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Papelería",
+                            "id_sub_categoria": 255
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Papelería y cuadernos",
+                            "id_sub_categoria": 256
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pegamentos",
+                            "id_sub_categoria": 266
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pegamentos y cintas adhesivas",
+                            "id_sub_categoria": 267
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pinturas y accesorios",
+                            "id_sub_categoria": 269
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pinturas y otros",
+                            "id_sub_categoria": 270
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Pizarras y accesorios",
+                            "id_sub_categoria": 271
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Plasticina",
+                            "id_sub_categoria": 272
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Plástico adhesivo",
+                            "id_sub_categoria": 273
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Resaltadores",
+                            "id_sub_categoria": 286
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Sellos y almohadillas",
+                            "id_sub_categoria": 303
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Separadores",
+                            "id_sub_categoria": 304
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Sobres de plástico carta",
+                            "id_sub_categoria": 309
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Sobres de plástico oficio",
+                            "id_sub_categoria": 310
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Sobres manila",
+                            "id_sub_categoria": 311
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Stickers y etiquetas",
+                            "id_sub_categoria": 313
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Útiles y accesorios",
+                            "id_sub_categoria": 343
+                        },
+                        {
+                            "imagen": null,
+                            "titulo": "Útiles y suministros oficina",
+                            "id_sub_categoria": 344
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "config": [
+        {
+            "id_configuracion": 1,
+            "id_tienda": 31,
+            "titulo": "moneda",
+            "configuracion": "Q",
+            "estado": 1
+        },
+        {
+            "id_configuracion": 2,
+            "id_tienda": 31,
+            "titulo": "monto_minimo_envio_gratis",
+            "configuracion": "350.00",
+            "estado": 1
+        },
+        {
+            "id_configuracion": 3,
+            "id_tienda": 31,
+            "titulo": "precio_servicio_envio",
+            "configuracion": "25.00",
+            "estado": 1
+        },
+        {
+            "id_configuracion": 4,
+            "id_tienda": 31,
+            "titulo": "monto_minimo_compra",
+            "configuracion": "200.00",
+            "estado": 1
+        },
+        {
+            "id_configuracion": 5,
+            "id_tienda": 31,
+            "titulo": "numero_contacto",
+            "configuracion": "38374625",
+            "estado": 1
+        },
+        {
+            "id_configuracion": 6,
+            "id_tienda": 31,
+            "titulo": "correo_contacto",
+            "configuracion": "atencionalcliente@superchapin.gt",
+            "estado": 1
+        },
+        {
+            "id_configuracion": 7,
+            "id_tienda": 31,
+            "titulo": "limite_pagos",
+            "configuracion": "2",
+            "estado": 1
+        },
+        {
+            "id_configuracion": 8,
+            "id_tienda": 31,
+            "titulo": "mostrar_horarios",
+            "configuracion": "0",
+            "estado": 1
+        },
+        {
+            "id_configuracion": 9,
+            "id_tienda": 31,
+            "titulo": "pasarela_crear_tarjeta",
+            "configuracion": "pixelpay",
+            "estado": 1
+        },
+        {
+            "id_configuracion": 10,
+            "id_tienda": 31,
+            "titulo": "pago_en_dos_pasos",
+            "configuracion": "1",
+            "estado": 1
+        },
+        {
+            "id_configuracion": 11,
+            "id_tienda": 31,
+            "titulo": "pais_crear_tarjeta_pixel",
+            "configuracion": "GT",
+            "estado": 1
+        },
+        {
+            "id_configuracion": 12,
+            "id_tienda": 31,
+            "titulo": "divisa_pago_tarjeta_pixel",
+            "configuracion": "GTQ",
+            "estado": 1
+        },
+        {
+            "id_configuracion": 13,
+            "id_tienda": 31,
+            "titulo": "divisa_pago_tarjeta_cyber",
+            "configuracion": "GTQ",
+            "estado": 1
+        },
+        {
+            "id_configuracion": 15,
+            "id_tienda": 31,
+            "titulo": "captura_parcial_pixelpay",
+            "configuracion": "0",
+            "estado": 1
+        }
+    ]
+}

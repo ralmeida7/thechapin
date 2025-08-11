@@ -1,0 +1,68 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<mat-toolbar color="primary" class="topbar">
+  <button mat-button routerLink="/products" aria-label="Go to products" class="brand">SuperStore</button>
+  <div class="search">
+    <mat-icon>search</mat-icon>
+    <input #q placeholder="Buscar producto" (keyup.enter)="goSearch(q.value)" />
+  </div>
+  <button mat-stroked-button color="primary" class="auth">Iniciar Sesión / Registrarse</button>
+  <button mat-icon-button routerLink="/cart" aria-label="Go to cart" [matBadge]="cartCount()" matBadgeColor="accent">
+    <mat-icon>shopping_cart</mat-icon>
+  </button>
+</mat-toolbar>
+
+<mat-toolbar class="categories-bar" role="navigation" aria-label="Categories">
+  <div class="cat-scroll-wrapper">
+    <button class="cat-nav left" mat-icon-button aria-label="Scroll categories left" (click)="scrollCats(catScroll, -1)">
+      <mat-icon>chevron_left</mat-icon>
+    </button>
+    <div #catScroll class="cat-scroll">
+      @for (c of categories(); track c.id) {
+  <a class="cat-chip" [routerLink]="['/products']" [queryParams]="{ category: c.id }" (click)="preloadDept(c.id)" matRipple>
+          <img [src]="c.urlImage" [alt]="c.name" onerror="this.onerror=null; this.src='https://picsum.photos/seed/'+encodeURIComponent(this.alt)+'/64/64';" />
+          <span>{{ c.name }}</span>
+        </a>
+      }
+    </div>
+    <button class="cat-nav right" mat-icon-button aria-label="Scroll categories right" (click)="scrollCats(catScroll, 1)">
+      <mat-icon>chevron_right</mat-icon>
+    </button>
+    <div class="fade left" aria-hidden="true"></div>
+    <div class="fade right" aria-hidden="true"></div>
+  </div>
+</mat-toolbar>
+
+<div class="container">
+  <router-outlet />
+</div>
+
+<style>
+  .spacer { flex: 1 1 auto; }
+  .topbar { position: sticky; top: 0; z-index: 100; backdrop-filter: saturate(1.2) blur(2px); gap: 12px; }
+  .search { flex: 1; display: flex; align-items: center; gap: 8px; background: var(--mat-sys-surface); border-radius: 999px; padding: 6px 12px; min-width: 320px; }
+  .search input { width: 100%; border: none; outline: none; background: transparent; font: inherit; }
+  .auth { margin-right: 8px; background: var(--mat-sys-surface); border-color: color-mix(in srgb, var(--mat-sys-primary) 30%, transparent); }
+  .categories-bar { position: sticky; top: 64px; z-index: 90; background: linear-gradient(90deg, var(--mat-sys-surface), transparent 98%); }
+  .cat-scroll-wrapper { position: relative; width: 100%; }
+  .cat-scroll { display: flex; gap: 12px; overflow-x: auto; padding: 8px 36px; scrollbar-width: thin; scroll-snap-type: x mandatory; scroll-behavior: smooth; }
+  .cat-chip { display: inline-flex; width: 600px; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px; text-decoration: none; background: var(--mat-sys-secondary-container); color: var(--mat-sys-on-secondary-container); transition: transform .15s ease, background .2s ease, box-shadow .2s ease; box-shadow: 0 1px 2px rgba(0,0,0,.08); }
+  .cat-chip { scroll-snap-align: start; white-space: nowrap; }
+  .cat-chip:hover { transform: translateY(-1px); background: color-mix(in srgb, var(--mat-sys-secondary-container) 80%, var(--mat-sys-primary) 20%); box-shadow: 0 6px 16px rgba(0,0,0,.12); }
+  .cat-chip img { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; box-shadow: 0 1px 2px rgba(0,0,0,.2); }
+  .cat-chip span { font-weight: 600; letter-spacing: .2px; }
+  .brand { font-weight: 600; letter-spacing: .2px; }
+  .container { padding: 20px; max-width: 1200px; margin-inline: auto; }
+  .cat-nav { position: absolute; top: 50%; transform: translateY(-50%); z-index: 1; background: color-mix(in srgb, var(--mat-sys-surface) 88%, transparent); box-shadow: 0 2px 10px rgba(0,0,0,.2); }
+  .cat-nav.left { left: 4px; }
+  .cat-nav.right { right: 4px; }
+  .fade { pointer-events: none; position: absolute; top: 0; bottom: 0; width: 28px; }
+  .fade.left { left: 0; background: linear-gradient(90deg, var(--mat-sys-surface), transparent); }
+  .fade.right { right: 0; background: linear-gradient(270deg, var(--mat-sys-surface), transparent); }
+</style>

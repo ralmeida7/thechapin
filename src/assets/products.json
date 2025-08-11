@@ -1,6 +1,29 @@
 [
-  { "id": 1, "name": "Smartphone", "categoryId": 1, "price": 699, "description": "Latest model smartphone.", "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400" },
-  { "id": 2, "name": "Laptop", "categoryId": 1, "price": 1299, "description": "High performance laptop.", "imageUrl": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400" },
-  { "id": 3, "name": "Novel", "categoryId": 2, "price": 19, "description": "Bestselling novel.", "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400" },
-  { "id": 4, "name": "T-Shirt", "categoryId": 3, "price": 25, "description": "Comfortable cotton t-shirt.", "imageUrl": "https://images.unsplash.com/photo-1521334884684-d80222895322?w=400" }
+  {
+    "id": "book-1",
+    "title": "The Pragmatic Programmer",
+    "description": "Your journey to mastery.",
+  "price": 39.99,
+  "oldPrice": 49.99,
+    "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80&auto=format&fit=crop",
+    "categoryId": "books"
+  },
+  {
+    "id": "laptop-1",
+    "title": "Ultrabook Pro 14",
+    "description": "Lightweight power for creators and coders.",
+  "price": 1299,
+  "oldPrice": 1499,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80&auto=format&fit=crop",
+    "categoryId": "electronics"
+  },
+  {
+    "id": "coffee-1",
+    "title": "Barista Espresso Machine",
+    "description": "Cafe-quality espresso at home.",
+  "price": 249.5,
+  "oldPrice": 299.0,
+    "image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=800&q=80&auto=format&fit=crop",
+    "categoryId": "home"
+  }
 ]

@@ -1,0 +1,578 @@
+[[{
+    "id_producto": 14965,
+    "img": "https://d2ai4mx17924io.cloudfront.net/arch/producto/14965/14965-1647621116222_p.jpg",
+    "precio": 7,
+    "descuento": 40,
+    "titulo": "Fast Push Pins variedad de colroes 100 unidades ",
+    "descripcion": "Fast Push Pins variedad de colroes 100 unidades ",
+    "existencia": 100,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 0,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 1085,
+    "titulo_marca": "FAST",
+    "sku": "4712302210976",
+    "departamentos": [{
+        "titulo": "Librería",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 7
+    }, {
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 1169,
+    "img": "https://d2ai4mx17924io.cloudfront.net/arch/producto/1169/1169-3813441537060_p.jpg",
+    "precio": 4,
+    "descuento": 40,
+    "titulo": "Esencia naranja Castilla 8.5 oz",
+    "descripcion": "Esencia naranja Castilla 8.5 oz",
+    "existencia": 67,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 250,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 98,
+    "titulo_marca": "Castilla",
+    "sku": "7401007800205",
+    "departamentos": [{
+        "titulo": "Bebidas",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 3
+    }, {
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 36087,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/1631052423.png",
+    "precio": 34,
+    "descuento": 40,
+    "titulo": "Palmerito Globo No. 9 independencia surtido azul y blanco Bandera 100 UN",
+    "descripcion": "Palmerito Globo No. 9 independencia surtido azul y blanco Bandera 100 UN",
+    "existencia": 50,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 100,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "802863130807",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }, {
+        "titulo": "Librería",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 7
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 31452,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/1689270863.webp",
+    "precio": 37.5,
+    "descuento": 40,
+    "titulo": "Ballena Azul Naranja 200 ml",
+    "descripcion": "Ballena Azul Naranja 200 ml",
+    "existencia": 46,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 200,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "7401071400097",
+    "departamentos": [{
+        "titulo": "Medicinales",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 9
+    }, {
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }, {
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 31453,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/1689271701.webp",
+    "precio": 37.5,
+    "descuento": 40,
+    "titulo": "Ballena Azul Frutas Tropicales 200 ml",
+    "descripcion": "Ballena Azul Frutas Tropicales 200 ml",
+    "existencia": 44,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 200,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "7401071400608",
+    "departamentos": [{
+        "titulo": "Medicinales",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 9
+    }, {
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }, {
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 34498,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/60abe66ee7289.png",
+    "precio": 9.95,
+    "descuento": 39.6985,
+    "titulo": "Little Trees Aromatizante Car Freshner Vainilla 1 UN",
+    "descripcion": "Little Trees Aromatizante Car Freshner Vainilla 1 UN",
+    "existencia": 35,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 1,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "076171101051",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }, {
+        "titulo": "Domésticos y limpieza del hogar",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 6
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 481,
+    "img": "https://d2ai4mx17924io.cloudfront.net/arch/producto/481/481-033844007454-1.jpg_p.jpg",
+    "precio": 38.35,
+    "descuento": 39.8957,
+    "titulo": "Condimento barbacoa Badia 99 g",
+    "descripcion": "Condimento barbacoa Badia 99 g",
+    "existencia": 28,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 99,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 492,
+    "titulo_marca": "Badia",
+    "sku": "033844007454",
+    "departamentos": [{
+        "titulo": "Alimentos",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 1
+    }, {
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 34660,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/6154d3391a5cb.jpg",
+    "precio": 39,
+    "descuento": 53.8461,
+    "titulo": "Nuby Cerraduras para Gabinetes 2 UN",
+    "descripcion": "Nuby Cerraduras para Gabinetes 2 UN",
+    "existencia": 24,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 2,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "048526007783",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 35667,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/606b4cd94129d.jpg",
+    "precio": 6.95,
+    "descuento": 39.5684,
+    "titulo": "Granamark Invitación Soccer 8 UN",
+    "descripcion": "Granamark Invitación Soccer 8 UN",
+    "existencia": 24,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 8,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "751214712929",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }, {
+        "titulo": "Librería",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 7
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 34649,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/6154d3111f91b.jpg",
+    "precio": 34,
+    "descuento": 40,
+    "titulo": "Nuby Dosificador De Medicamentos 1 UN",
+    "descripcion": "Nuby Dosificador De Medicamentos 1 UN",
+    "existencia": 24,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 1,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "048526241712",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 36066,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/1695746189.webp",
+    "precio": 22,
+    "descuento": 40,
+    "titulo": "Nuby Set Platos Para Niña 1 UN",
+    "descripcion": "Nuby Set Platos Para Niña 1 UN",
+    "existencia": 24,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 1,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "7502269052125",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }, {
+        "titulo": "Bebés",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 2
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 35672,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/606b4cdeea440.jpg",
+    "precio": 6.95,
+    "descuento": 39.5684,
+    "titulo": "Granamark Invitación Unicornio 8 UN",
+    "descripcion": "Granamark Invitación Unicornio 8 UN",
+    "existencia": 23,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 8,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "751214749758",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }, {
+        "titulo": "Librería",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 7
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 34658,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/6154d3427e10f.jpg",
+    "precio": 32,
+    "descuento": 40,
+    "titulo": "Nuby Bloqueador Deslizante 2 UN",
+    "descripcion": "Nuby Bloqueador Deslizante 2 UN",
+    "existencia": 23,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 2,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "048526007943",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 31642,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/500.jpg",
+    "precio": 16.95,
+    "descuento": 39.823,
+    "titulo": "Gerber First Essentials Pacha Pastel Transparente 5 oz",
+    "descripcion": "Gerber First Essentials Pacha Pastel Transparente 5 oz",
+    "existencia": 22,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 5,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "885131761279",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }, {
+        "titulo": "Bebés",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 2
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 35683,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/606b4cf0714c9.jpg",
+    "precio": 6.95,
+    "descuento": 39.5684,
+    "titulo": "Granamark Invitación Feliz Cumpleaños 8 UN",
+    "descripcion": "Granamark Invitación Feliz Cumpleaños 8 UN",
+    "existencia": 22,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 8,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "751214777829",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }, {
+        "titulo": "Librería",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 7
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 34657,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/6154d34e3115e.jpg",
+    "precio": 32,
+    "descuento": 40,
+    "titulo": "Nuby Seguro Ajustable 1 UN",
+    "descripcion": "Nuby Seguro Ajustable 1 UN",
+    "existencia": 22,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 1,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "048526007950",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 36082,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/6136a54937fac.jpg",
+    "precio": 9.9,
+    "descuento": 39.899,
+    "titulo": "Lucero Mantel Plástico Polka Amarillo 1 UN",
+    "descripcion": "Lucero Mantel Plástico Polka Amarillo 1 UN",
+    "existencia": 22,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 1,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "7401009405781",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }, {
+        "titulo": "Librería",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 7
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 34663,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/6154d314826eb.jpg",
+    "precio": 92,
+    "descuento": 40,
+    "titulo": "Nuby Asiento Entrenador Para Inodoro 1 UN",
+    "descripcion": "Nuby Asiento Entrenador Para Inodoro 1 UN",
+    "existencia": 22,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 1,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "048526004126",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 34493,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/60abe674dd3c9.jpg",
+    "precio": 11.75,
+    "descuento": 48.9362,
+    "titulo": "Little Trees Aromatizante Car Freshner Durazno 1 UN",
+    "descripcion": "Little Trees Aromatizante Car Freshner Durazno 1 UN",
+    "existencia": 21,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 1,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "076171103192",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }, {
+        "titulo": "Domésticos y limpieza del hogar",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 6
+    }],
+    "atributos": null,
+    "especificaciones": null
+}, {
+    "id_producto": 35387,
+    "img": "https://prototype-taptapapp.s3.amazonaws.com/images/products/small/9462.jpeg",
+    "precio": 9,
+    "descuento": 40,
+    "titulo": "Star Bolsa Botella con Ventana Kraft 1 UN",
+    "descripcion": "Star Bolsa Botella con Ventana Kraft 1 UN",
+    "existencia": 21,
+    "venta_sin_inventario": 0,
+    "unidad_venta": 1,
+    "id_tipo_producto": 1,
+    "tipo_producto": "generico",
+    "express": 0,
+    "id_zona_cobertura": 1,
+    "zona_cobertura": "total",
+    "id_marca": 217,
+    "titulo_marca": "Sin Marca",
+    "sku": "8004839841218",
+    "departamentos": [{
+        "titulo": "Ofertas",
+        "descripcion": "Departamento de Ofertas Especiales",
+        "id_departamento_producto": 13
+    }, {
+        "titulo": "Librería",
+        "descripcion": "Sin Descripción",
+        "id_departamento_producto": 7
+    }],
+    "atributos": null,
+    "especificaciones": null
+}], {
+    "fieldCount": 0,
+    "affectedRows": 0,
+    "insertId": 0,
+    "serverStatus": 34,
+    "warningCount": 0,
+    "message": "",
+    "protocol41": true,
+    "changedRows": 0
+}]

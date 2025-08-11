@@ -1,5 +1,5 @@
 [
-    { "id": 1, "name": "Electronics", "imageUrl": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400" },
-    { "id": 2, "name": "Books", "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=400" },
-    { "id": 3, "name": "Clothing", "imageUrl": "https://images.unsplash.com/photo-1521334884684-d80222895322?w=400" }
+  { "id": "books", "name": "Books", "urlImage": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=320&q=80&auto=format&fit=crop" },
+  { "id": "electronics", "name": "Electronics", "urlImage": "https://images.unsplash.com/photo-1518773553398-650c184e0bb3?w=320&q=80&auto=format&fit=crop" },
+  { "id": "home", "name": "Home & Kitchen", "urlImage": "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?w=320&q=80&auto=format&fit=crop" }
 ]
