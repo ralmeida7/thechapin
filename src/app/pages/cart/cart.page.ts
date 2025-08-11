@@ -64,6 +64,14 @@ import { CartService } from '../../services/cart.service';
   tr + tr td { border-top: 1px solid #e2e8e4; }
   .summary { display: flex; align-items: center; gap: 12px; margin-top: 24px; padding: 16px 20px; background: var(--brand-surface-alt); border-radius: var(--brand-radius); box-shadow: var(--brand-shadow-sm); }
     .spacer { flex: 1; }
+  @media (max-width: 700px) {
+    table, thead, tbody, tr, th, td { display: block; width: 100%; }
+    thead { display: none; }
+    tr { margin-bottom: 12px; background: #fff; border: 1px solid #e4ebe7; border-radius: 12px; padding: 8px 12px; box-shadow: 0 2px 4px rgba(0,0,0,.04); }
+    td { border: none !important; padding: 6px 4px; display: flex; justify-content: space-between; align-items: center; font-size: .85rem; }
+    td::before { content: attr(data-label); font-weight: 600; color: #234; }
+    .summary { flex-direction: column; align-items: flex-end; }
+  }
   `]
 })
 export class CartPage {

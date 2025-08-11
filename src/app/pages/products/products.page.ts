@@ -89,6 +89,17 @@ import { Category, Product } from '../../models/models';
       .slide-content { grid-template-columns: 1fr; text-align: center; padding: 28px 24px; }
       .slide-content img { display: none; }
     }
+    @media (max-width: 700px) {
+      .products { gap: 14px; }
+      .product-card { font-size: .8rem; }
+      .product-card img[mat-card-image] { height: 150px; }
+    }
+    @media (max-width: 520px) {
+      .hero-head { font-size: 1.35rem; }
+      .hero-sub { font-size: .85rem; }
+      .products { grid-template-columns: repeat(auto-fill,minmax(170px,1fr)); }
+      .product-card img[mat-card-image] { height: 130px; }
+    }
   `]
 })
 export class ProductsPage implements OnInit {

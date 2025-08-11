@@ -102,7 +102,9 @@ import { Product } from '../../models/models';
     .pulse.w40 { width: 40%; }
     @keyframes pulse { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
     @media (max-width: 1100px) { .detail { gap: 40px; } }
-    @media (max-width: 900px) { .detail { grid-template-columns: 1fr; } .media-frame { position: relative; top: 0; } }
+  @media (max-width: 900px) { .detail { grid-template-columns: 1fr; gap: 32px; } .media-frame { position: relative; top: 0; padding: 28px 28px 40px; } .title { font-size: clamp(1.7rem,5vw,2.2rem); } }
+  @media (max-width: 600px) { .price { font-size: 1.9rem; } .media-frame { padding: 24px 20px 32px; border-radius: 24px; } .purchase { gap: 10px; } .qty-picker button { width: 36px; } .qty-picker input { width: 48px; } }
+  @media (max-width: 480px) { .detail { gap: 24px; } .extra { padding: 16px 18px 20px; } .title { font-size: 1.6rem; } .desc { font-size: .92rem; } }
   `]
 })
 export class ProductDetailPage implements OnInit {
