@@ -20,10 +20,10 @@
 
 <mat-toolbar class="categories-bar" role="navigation" aria-label="Categories">
   <div class="cat-scroll-wrapper">
-    <button class="cat-nav left" mat-icon-button aria-label="Scroll categories left" (click)="scrollCats(catScroll, -1)">
+    <button class="cat-nav left" mat-icon-button aria-label="Scroll categories left" (click)="scrollCats(catScroll, -1)" [class.show]="showLeft()">
       <mat-icon>chevron_left</mat-icon>
     </button>
-    <div #catScroll class="cat-scroll">
+    <div #catScroll class="cat-scroll" (scroll)="updateCatNav(catScroll)">
       @for (c of categories(); track c.id) {
   <a class="cat-chip" [routerLink]="['/products']" [queryParams]="{ category: c.id }" (click)="preloadDept(c.id)" matRipple>
           <img [src]="c.urlImage" [alt]="c.name" onerror="this.onerror=null; this.src='https://picsum.photos/seed/'+encodeURIComponent(this.alt)+'/64/64';" />
@@ -31,7 +31,7 @@
         </a>
       }
     </div>
-    <button class="cat-nav right" mat-icon-button aria-label="Scroll categories right" (click)="scrollCats(catScroll, 1)">
+    <button class="cat-nav right" mat-icon-button aria-label="Scroll categories right" (click)="scrollCats(catScroll, 1)" [class.show]="showRight()">
       <mat-icon>chevron_right</mat-icon>
     </button>
     <div class="fade left" aria-hidden="true"></div>
@@ -42,39 +42,6 @@
 <div class="container">
   <router-outlet />
 </div>
-
-<style>
-  .spacer { flex: 1 1 auto; }
-  .topbar { position: sticky; top: 0; z-index: 100; backdrop-filter: saturate(1.2) blur(2px); gap: 12px; }
-  .search { flex: 1; display: flex; align-items: center; gap: 8px; background: var(--mat-sys-surface); border-radius: 999px; padding: 6px 12px; min-width: 320px; }
-  .search input { width: 100%; border: none; outline: none; background: transparent; font: inherit; }
-  .auth { margin-right: 8px; background: var(--mat-sys-surface); border-color: color-mix(in srgb, var(--mat-sys-primary) 30%, transparent); }
-  .categories-bar { position: sticky; top: 64px; z-index: 90; background: linear-gradient(90deg, var(--mat-sys-surface), transparent 98%); }
-  .cat-scroll-wrapper { position: relative; width: 100%; }
-  .cat-scroll { display: flex; gap: 12px; overflow-x: auto; padding: 8px 36px; scrollbar-width: thin; scroll-snap-type: x mandatory; scroll-behavior: smooth; }
-  .cat-chip { display: inline-flex; align-items: center; gap: 8px; padding: 6px 18px 6px 10px; border-radius: 32px; text-decoration: none; background: #fff; color: #1e362b; transition: transform .15s ease, background .2s ease, box-shadow .2s ease; box-shadow: 0 2px 4px rgba(0,0,0,.06); border: 1px solid #e2e8e4; }
-  .cat-chip { scroll-snap-align: start; white-space: nowrap; }
-  .cat-chip:hover { transform: translateY(-1px); background: color-mix(in srgb, var(--mat-sys-secondary-container) 80%, var(--mat-sys-primary) 20%); box-shadow: 0 6px 16px rgba(0,0,0,.12); }
-  .cat-chip img { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; box-shadow: 0 1px 2px rgba(0,0,0,.2); }
-  .cat-chip span { font-weight: 600; letter-spacing: .2px; }
-  /* Force readable category chip text on light background */
-  .cat-chip, .cat-chip span { color: #1e362b !important; }
-  .cat-chip:hover span { color: #1e362b; }
-  .cat-scroll { gap: 16px; padding: 8px 56px; }
-  /* Scroll nav buttons styling for visibility */
-  .cat-nav { width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 50%; background: #ffffffd9; backdrop-filter: blur(4px); border: 1px solid #d6e2db; cursor: pointer; transition: background .2s; }
-  .cat-nav:hover { background: #fff; }
-  .cat-nav mat-icon { color: #0c7c3d; }
-  .fade { display: none; }
-  .brand { font-weight: 600; letter-spacing: .2px; }
-  .container { padding: 20px; max-width: 1200px; margin-inline: auto; }
-  .cat-nav { position: absolute; top: 50%; transform: translateY(-50%); z-index: 1; background: color-mix(in srgb, var(--mat-sys-surface) 88%, transparent); box-shadow: 0 2px 10px rgba(0,0,0,.2); }
-  .cat-nav.left { left: 4px; }
-  .cat-nav.right { right: 4px; }
-  .fade { pointer-events: none; position: absolute; top: 0; bottom: 0; width: 28px; }
-  .fade.left { left: 0; background: linear-gradient(90deg, var(--mat-sys-surface), transparent); }
-  .fade.right { right: 0; background: linear-gradient(270deg, var(--mat-sys-surface), transparent); }
-</style>
 
 <footer class="app-footer">
   <div class="container">
