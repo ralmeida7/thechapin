@@ -175,6 +175,24 @@
   }
 }
 
+@media (max-width: 520px) {
+  .cat-scroll {
+    padding: 6px 44px;
+    gap: 12px;
+  }
+
+  .cat-chip {
+    padding: 4px 14px 4px 8px;
+    font-size: .75rem;
+  }
+}
+
+@media (max-height: 520px) and (orientation: landscape) {
+  .cat-scroll {
+    padding: 4px 40px;
+  }
+}
+
 @media (min-width: 768px) {
   .cat-scroll {
     gap: 16px;
