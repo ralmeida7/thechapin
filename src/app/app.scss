@@ -37,7 +37,7 @@
 
 .categories-bar {
   position: sticky;
-  top: 64px;
+  top: var(--topbar-height, 64px);
   z-index: 90;
   background: linear-gradient(90deg, var(--mat-sys-surface), transparent 98%);
 }

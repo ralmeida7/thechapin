@@ -1,4 +1,4 @@
-import { Component, signal, inject, OnInit, AfterViewInit, ElementRef, ViewChild } from '@angular/core';
+import { Component, signal, inject, OnInit, AfterViewInit, ElementRef, ViewChild, OnDestroy } from '@angular/core';
 import { RouterOutlet, RouterLink, Router } from '@angular/router';
 import { DatePipe } from '@angular/common';
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -16,13 +16,15 @@ import { ProductsService } from './services/products.service';
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
-export class App implements OnInit, AfterViewInit {
+export class App implements OnInit, AfterViewInit, OnDestroy {
   protected readonly title = signal('online-store');
   private cart = inject(CartService);
   private products = inject(ProductsService);
   private router = inject(Router);
   protected readonly today = new Date();
   @ViewChild('catScroll') private catScroll?: ElementRef<HTMLElement>;
+  @ViewChild('topBar') private topBar?: ElementRef<HTMLElement>;
+  private host = inject(ElementRef) as ElementRef<HTMLElement>;
   protected readonly showLeft = signal(false);
   protected readonly showRight = signal(false);
   cartCount() { return this.cart.count(); }
@@ -41,6 +43,12 @@ export class App implements OnInit, AfterViewInit {
     if (this.catScroll) {
       this.updateCatNav(this.catScroll.nativeElement);
     }
+    this.updateTopBarHeight();
+    window.addEventListener('resize', this.updateTopBarHeight);
+  }
+
+  ngOnDestroy() {
+    window.removeEventListener('resize', this.updateTopBarHeight);
   }
 
   scrollCats(el: HTMLElement, dir: number) {
@@ -54,6 +62,13 @@ export class App implements OnInit, AfterViewInit {
     const { scrollLeft, clientWidth, scrollWidth } = el;
     this.showLeft.set(scrollLeft > 0);
     this.showRight.set(scrollLeft + clientWidth < scrollWidth);
+  }
+
+  private updateTopBarHeight = () => {
+    if (this.topBar) {
+      const h = this.topBar.nativeElement.offsetHeight;
+      this.host.nativeElement.style.setProperty('--topbar-height', `${h}px`);
+    }
   }
 
   preloadDept(id: string) {
